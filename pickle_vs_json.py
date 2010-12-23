@@ -9,6 +9,27 @@
 
 import simplejson
 import pickle
+
+"""
+	Other things to try:
+	
+	# Marshal vs Simple JSON:
+	import marshal as pickle
+	import simplejson
+	
+	# Marshal vs Pickle:
+	import marshal as simplejson
+	import pickle
+	
+	# Marshal vs cPickle:
+	import marshal as simplejson
+	import cPickle as pickle
+	
+	# Simple JSON vs cPickle
+	import simplejson
+	import cPickle as pickle
+"""
+
 import timeit
 import random
 import sys
